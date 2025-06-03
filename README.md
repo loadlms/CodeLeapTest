@@ -1,77 +1,77 @@
 # CodeLeap Network
 
-Este é um projeto de teste para a CodeLeap, desenvolvido com React e TypeScript. É uma rede social simples onde os usuários podem criar, editar e excluir posts.
+This is a test project for CodeLeap, developed with React and TypeScript. It's a simple social network where users can create, edit, and delete posts.
 
-## Funcionalidades
+## Features
 
-- Autenticação simples com nome de usuário
-- Criação de posts com título e conteúdo
-- Edição de posts existentes
-- Exclusão de posts
-- Visualização de posts em tempo real
-- Interface responsiva e moderna
-- Formatação automática de data/hora dos posts
+- Simple authentication with username
+- Create posts with title and content
+- Edit existing posts
+- Delete posts
+- Real-time post viewing
+- Responsive and modern interface
+- Automatic date/time formatting for posts
 
-## Requisitos
+## Requirements
 
-- Node.js (versão 14 ou superior)
-- npm ou yarn
+- Node.js (version 14 or higher)
+- npm or yarn
 
-## Instalação
+## Installation
 
-1. Clone o repositório
-2. Instale as dependências:
+1. Clone the repository
+2. Install dependencies:
 ```bash
 npm install
-# ou
+# or
 yarn install
 ```
 
-## Executando o projeto
+## Running the project
 
-Para iniciar o servidor de desenvolvimento:
+To start the development server:
 
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
 ```
 
-O projeto estará disponível em `http://localhost:5173`
+The project will be available at `http://localhost:5173`
 
-## Tecnologias utilizadas
+## Technologies used
 
 - React 18
 - TypeScript
-- Tailwind CSS para estilização
-- Axios para requisições HTTP
-- React Router DOM para roteamento
-- React Query para gerenciamento de estado e cache
-- Vite como bundler e servidor de desenvolvimento
+- Tailwind CSS for styling
+- Axios for HTTP requests
+- React Router DOM for routing
+- React Query for state management and caching
+- Vite as bundler and development server
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 src/
-  ├── components/         # Componentes reutilizáveis
-  │   ├── CreatePost.tsx  # Formulário de criação de posts
-  │   ├── EditPostModal.tsx    # Modal de edição
-  │   └── DeleteConfirmationModal.tsx  # Modal de confirmação
-  ├── pages/             # Páginas da aplicação
-  │   └── Home.tsx       # Página principal
-  ├── App.tsx            # Componente raiz
-  └── main.tsx           # Ponto de entrada
+  ├── components/         # Reusable components
+  │   ├── CreatePost.tsx  # Post creation form
+  │   ├── EditPostModal.tsx    # Edit modal
+  │   └── DeleteConfirmationModal.tsx  # Confirmation modal
+  ├── pages/             # Application pages
+  │   └── Home.tsx       # Main page
+  ├── App.tsx            # Root component
+  └── main.tsx           # Entry point
 ```
 
 ## API
 
-O projeto utiliza a API da CodeLeap disponível em:
+The project uses the CodeLeap API available at:
 - Base URL: `https://dev.codeleap.co.uk/careers/`
 
-## Contribuição
+## Contributing
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request 
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request 
